@@ -13,6 +13,3 @@ def blink(pin, times=None):
 		led.off()
 		sleep(1)
 		print("cycle {0}".format(i))
-
-
-blink(17, 5)
